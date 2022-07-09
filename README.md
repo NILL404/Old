@@ -6,11 +6,10 @@ File,old account cloning letest Tool
 ```
 pkg update
 pkg upgrade
-pkg install python
-pkg install python2
+pkg install python -y
 pip2 install requests
 pip2 install mechanize
-pkg install git
+pkg install git -y
 git clone https://github.com/NILL404/Old
 cd Old
 python2 OLD.py
